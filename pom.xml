@@ -6,7 +6,7 @@
 <version>1.0.1-SNAPSHOT</version>
 <name>NumberGenerator</name>
 <properties>
-<jdk.version>1.7</jdk.version>
+<jdk.version>1.8</jdk.version>
 </properties>
 <build>
 <plugins>
@@ -36,10 +36,12 @@
 <scope>test</scope>
 </dependency>
 </dependencies>
-<scm>
-<connection>scm:svn:http://192.168.33.11:8081/subversion/</connection>
-<developerConnection>scm:svn:http://192.168.33.11:8081/subversion/</developerConnection>
-</scm>
+
+<!-- <scm>
+#<connection>scm:svn:http://192.168.33.11:8081/subversion/</connection>
+#<developerConnection>scm:svn:http://192.168.33.11:8081/subversion/</developerConnection>
+#</scm> -->
+
 <distributionManagement>
 <repository>
 <id>ARTECH</id>
